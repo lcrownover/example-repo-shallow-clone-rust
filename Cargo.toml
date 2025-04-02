@@ -1,0 +1,9 @@
+[package]
+name = "repo_cache"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.97"
+git2 = "0.20.1"
+tokio = { version = "1.44.1", features = ["full"] }
